@@ -184,13 +184,15 @@ export default function App() {
                     <span className="text-xs uppercase tracking-[0.4em] text-orange-300 font-bold mb-6 block relative z-10">
                       Your Result
                     </span>
-                    <h2 className="text-5xl md:text-7xl font-serif tracking-tighter mb-8 text-white relative z-10 leading-tight">
-                      You are <span className="italic text-orange-300 underline decoration-orange-500 underline-offset-8">{resultAlbum?.title}</span>
+                    <h2 className="text-4xl md:text-6xl font-serif tracking-tighter mb-4 text-white relative z-10 leading-tight">
+                      Your album is <span className="italic text-orange-300 underline decoration-orange-500 underline-offset-8">{resultAlbum?.title}</span>
                     </h2>
+                    <p className="text-xl text-orange-200 font-bold mb-10 relative z-10 font-serif">by {resultAlbum?.artist}</p>
                     
                     <div className="mt-8 pt-8 border-t border-white/10 relative z-10">
                       <p className="text-xs uppercase tracking-[0.3em] text-orange-400 font-bold mb-3">Spirit Song</p>
                       <p className="text-3xl font-serif italic text-orange-50 text-glow-sm">"{resultAlbum?.songTitle}"</p>
+                      <p className="text-lg text-orange-200 mt-2 font-serif font-bold">by {resultAlbum?.songArtist}</p>
                     </div>
                   </div>
 

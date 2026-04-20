@@ -3,6 +3,7 @@ export interface Album {
   title: string;
   artist: string;
   songTitle?: string;
+  songArtist?: string;
   description: string;
   imageUrl: string;
   color: string;

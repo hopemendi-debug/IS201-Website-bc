@@ -6,6 +6,7 @@ export const ALBUMS: Album[] = [
     title: 'Purple Rain',
     artist: 'Prince',
     songTitle: "(I Can't Get No) Satisfaction",
+    songArtist: 'The Rolling Stones',
     description: 'You have "Center Stage" energy. You aren’t just living your life; you’re headlining it. You move with a rhythm that defines the room. You are the Cultural Powerhouse.',
     imageUrl: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=2069',
     color: '#7c2d12' /* Deep Rust */
@@ -15,6 +16,7 @@ export const ALBUMS: Album[] = [
     title: 'Blue',
     artist: 'Joni Mitchell',
     songTitle: "Like a Rolling Stone",
+    songArtist: 'Bob Dylan',
     description: 'You are the main character in a quiet, indie coming-of-age movie. You value authenticity and the power of a perfectly written sentence. You are the Introspective Soul.',
     imageUrl: 'https://images.unsplash.com/photo-1496293455970-f8581aae0e3c?auto=format&fit=crop&q=80&w=2071',
     color: '#3f6212' /* Avocado Green */
@@ -24,6 +26,7 @@ export const ALBUMS: Album[] = [
     title: 'Pet Sounds',
     artist: 'The Beach Boys',
     songTitle: "Good Vibrations",
+    songArtist: 'The Beach Boys',
     description: 'You see the world in layers. You appreciate the "how" and "why" behind everything and find beauty in the details others miss. You are the Visionary Architect.',
     imageUrl: 'https://images.unsplash.com/photo-1459749411177-042180ce673c?auto=format&fit=crop&q=80&w=2070',
     color: '#ca8a04' /* Harvest Gold */
@@ -33,6 +36,7 @@ export const ALBUMS: Album[] = [
     title: 'The Miseducation of Lauryn Hill',
     artist: 'Lauryn Hill',
     songTitle: "Smells Like Teen Spirit",
+    songArtist: 'Nirvana',
     description: 'You live for the "feel." Your life is a series of cinematic moments fueled by intense, raw emotions and authentic connections. You are the Cinematic Dreamer.',
     imageUrl: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=2070',
     color: '#78350f' /* Warm Brown */
